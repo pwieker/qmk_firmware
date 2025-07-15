@@ -1,0 +1,94 @@
+{
+    "keyboard": "makkro",
+    "keymap": "pwieker",
+    "host-language": "german",
+    "macros": [
+        [
+            {"action": "tap","keycodes": ["ENTER"]}
+            {"action":"down", "keycodes": ["LSFT"]},
+            "transit",
+            {"action": "up","keycodes": ["LSFT"]},
+            {"action": "tap","keycodes": ["LCTL", "ENTER"]}
+        ],
+        [
+            {"action": "tap","keycodes": ["LCTL", "N"]}
+            {"action":"down", "keycodes": ["LSFT"]},
+            "YNF",
+            {"action": "up","keycodes": ["LSFT"]},
+            {"action": "tap","keycodes": ["SLASH"]},
+        ],
+        [
+
+            {"action": "tap","keycodes": ["TAB"]},
+            "Yur Nutyung frei",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            "Neuenkooper Stra-e 81a",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            "27804",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["LCTL", "ENTER"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            "Gerd Vogel",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            "04406976685",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            "vogel",
+            {"action": "tap","keycodes": ["RALT", "Q"]},
+            "rwg",
+            {"action": "tap","keycodes": ["SLASH"]},
+            "hunte",
+            {"action": "tap","keycodes": ["SLASH"]},
+            "weser.de"
+        ],
+        [
+            {"action": "tap","keycodes": ["TAB"]},
+            "ET",
+            {"action": "tap","keycodes": ["TAB"]},
+            "Ersatyteile",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            "1110",
+            {"action": "tap","keycodes": ["TAB"]},
+            "1111",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["F8"]},
+
+            {"action": "tap","keycodes": ["TAB"]},
+            "KG",
+            {"action": "tap","keycodes": ["TAB"]},
+            "Kleingeraete",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            "1100",
+            {"action": "tap","keycodes": ["TAB"]},
+            "1101",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["F8"]},
+
+            {"action": "tap","keycodes": ["TAB"]},
+            "MASCHINEN",
+            {"action": "tap","keycodes": ["TAB"]},
+            "Maschinen",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["TAB"]},
+            "1100",
+            {"action": "tap","keycodes": ["TAB"]},
+            "1101",
+            {"action": "tap","keycodes": ["TAB"]},
+            {"action": "tap","keycodes": ["LCTL", "ENTER"]},
+            {"action": "tap","keycodes": ["LCTL", "ENTER"]},
+        ]
+    ],
+    "layers": [
+        ["QK_MACRO_1", "QK_MACRO_2", "QK_MACRO_3", "QK_MACRO_0", "KC_RGHT", "KC_DOWN", "LCTL(KC_X)", "LCTL(KC_C)", "LCTL(KC_V)"]
+    ],
+    "layout": "LAYOUT_ortho_3x3"
+}
