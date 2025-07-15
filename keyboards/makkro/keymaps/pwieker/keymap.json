@@ -1,0 +1,24 @@
+{
+    "keyboard": "makkro",
+    "keymap": "pwieker",
+    "host-language": "german",
+    "macros": [
+        [
+            {"action":"down", "keycodes": ["LSFT"]},
+            "hello world1",
+            {"action": "up","keycodes": ["LSFT"]}
+        ],
+        [
+            "Baumnummer",
+            {"action":"tap", "keycodes": ["LSFT", "DOT"]},
+            {"action":"tap", "keycodes": ["ENTER"]},
+            "Baumstandort",
+            {"action":"tap", "keycodes": ["LSFT", "DOT"]},
+            {"action":"tap", "keycodes": ["ENTER"]},
+        ]
+    ],
+    "layers": [
+        ["QK_MACRO_0", "QK_MACRO_1", "KC_C", "KC_D", "KC_E", "KC_F", "LCTL(KC_X)", "LCTL(KC_C)", "LCTL(KC_V)"]
+    ],
+    "layout": "LAYOUT_ortho_3x3"
+}
