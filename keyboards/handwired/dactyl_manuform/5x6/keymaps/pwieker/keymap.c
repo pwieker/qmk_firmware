@@ -18,7 +18,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL, DE_Y  , DE_X         , DE_C         , DE_V         , DE_B  ,                             DE_N  , DE_M        ,DE_COMM,      DE_DOT ,      DE_MINS  ,DE_HASH,
                          DE_LESS      ,LSFT(DE_LESS),                                                                                DE_PLUS,       DE_EQL,
                                                                     LT(_RAISE, KC_BSPC),KC_SPC,     KC_ENT,  LT(_LOWER, KC_DEL),
-                                                                    _______,KC_TAB,                 KC_END,  _______,
+                                                                    KC_LEFT_ALT,KC_TAB,                 KC_END,  KC_RIGHT_ALT,
                                                                     _______, _______,                _______, _______
     ),
 
